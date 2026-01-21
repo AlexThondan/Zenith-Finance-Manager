@@ -23,6 +23,9 @@ A modern, feature-rich **budget tracking and financial management web app** with
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/530de9f8-bce0-4d18-b2f8-3edda65fd284" width="260"/>
+  <img width="1906" height="862" alt="Screenshot 2026-01-21 181721" src="https://github.com/user-attachments/assets/a076bc36-4824-403d-a68f-e5d8d35df501" />
+<img width="1903" height="904" alt="Screenshot 2026-01-21 181733" src="https://github.com/user-attachments/assets/c824caa5-e116-4ed9-a31e-72ae3b24ddd8" />
+
   <img src="https://github.com/user-attachments/assets/d5eb1d39-d907-4051-91ad-c56d8d328522" width="260"/>
   <img src="https://github.com/user-attachments/assets/96896961-4b94-45eb-b026-919448011f52" width="260"/>
 </p>
@@ -30,12 +33,16 @@ A modern, feature-rich **budget tracking and financial management web app** with
 <p align="center">
   <img src="https://github.com/user-attachments/assets/c49e682c-437f-47aa-a837-2945b7d0f957" width="260"/>
   <img src="https://github.com/user-attachments/assets/58d09207-134d-4f76-b564-9938b13eaa34" width="260"/>
+  <img width="1899" height="914" alt="Screenshot 2026-01-21 181743" src="https://github.com/user-attachments/assets/9c48addc-345c-4124-b77f-98f22ef5008d" />
+
   <img src="https://github.com/user-attachments/assets/4da39c7f-aba4-4a1b-aec0-e24a4f620539" width="260"/>
 </p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/98f672a0-29fc-43e7-abaa-1e2aed558bbe" width="260"/>
   <img src="https://github.com/user-attachments/assets/58146a02-fd29-4be8-ae6b-af75618bd6fd" width="260"/>
+  <img width="1901" height="897" alt="Screenshot 2026-01-21 181800" src="https://github.com/user-attachments/assets/e64a175d-f1dc-4569-966c-03aeccd1b3ad" />
+
 </p>
 
 ---
