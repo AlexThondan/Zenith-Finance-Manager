@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenith Finance - Smart Money Management Platform</title>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%2310b981'/><path d='M30 50 L45 65 L70 35' stroke='white' stroke-width='8' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+    <link rel="stylesheet" href="landing.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <div class="brand-icon">
+                    <svg width="40" height="40" viewBox="0 0 100 100">
+                        <circle cx="50" cy="50" r="45" fill="#10b981" />
+                        <path d="M30 50 L45 65 L70 35" stroke="white" stroke-width="8" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <span class="brand-name">Zenith Finance</span>
+            </div>
+
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="btn-login" id="openLogin">Login</button>
+                <button class="btn-signup" id="openSignup">Sign Up</button>
+            </div>
+
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Master Your Finances with Intelligence and Simplicity</h1>
+                    <p class="hero-subtitle">Zenith Finance brings you powerful analytics, smart budgeting, and
+                        real-time insights to help you achieve your financial goals faster and smarter.</p>
+                    <div class="hero-buttons">
+                        <button class="btn-primary" id="heroSignup">Start Free Today</button>
+                        <button class="btn-secondary" id="learnMoreBtn">Explore Features</button>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">50,000+</div>
+                            <div class="stat-label">Active Users</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">₹250Cr+</div>
+                            <div class="stat-label">Money Managed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">4.9/5</div>
+                            <div class="stat-label">User Rating</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <svg viewBox="0 0 500 400" class="finance-illustration">
+                        <!-- Laptop/Dashboard -->
+                        <rect x="50" y="80" width="400" height="250" rx="10" fill="#fff" stroke="#10b981"
+                            stroke-width="3" />
+                        <rect x="60" y="90" width="380" height="200" rx="5" fill="#f0fdf4" />
+
+                        <!-- Screen content - Charts -->
+                        <circle cx="140" cy="160" r="40" fill="none" stroke="#10b981" stroke-width="8"
+                            stroke-dasharray="80 170" />
+                        <circle cx="140" cy="160" r="40" fill="none" stroke="#d1fae5" stroke-width="8"
+                            stroke-dasharray="90 170" transform="rotate(120 140 160)" />
+
+                        <!-- Bar Chart -->
+                        <rect x="220" y="180" width="30" height="60" rx="3" fill="#10b981" />
+                        <rect x="260" y="150" width="30" height="90" rx="3" fill="#059669" />
+                        <rect x="300" y="170" width="30" height="70" rx="3" fill="#10b981" />
+                        <rect x="340" y="140" width="30" height="100" rx="3" fill="#059669" />
+
+                        <!-- Money symbols -->
+                        <text x="100" y="50" font-size="30" fill="#10b981">₹</text>
+                        <text x="380" y="70" font-size="25" fill="#059669">$</text>
+                        <text x="420" y="320" font-size="28" fill="#10b981">€</text>
+
+                        <!-- Coins -->
+                        <circle cx="80" cy="320" r="20" fill="#10b981" opacity="0.8" />
+                        <circle cx="110" cy="340" r="18" fill="#059669" opacity="0.8" />
+                        <circle cx="430" cy="100" r="15" fill="#10b981" opacity="0.6" />
+
+                        <!-- Trend arrow -->
+                        <path d="M 350 50 L 420 20 L 420 50 Z" fill="#10b981" />
+                        <line x1="300" y1="80" x2="420" y2="35" stroke="#10b981" stroke-width="4" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Powerful Features for Complete Financial Control</h2>
+                <p class="section-subtitle">Everything you need to manage, track, and grow your wealth</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="#10b981" stroke-width="2" />
+                            <path d="M2 17L12 22L22 17" stroke="#10b981" stroke-width="2" />
+                            <path d="M2 12L12 17L22 12" stroke="#10b981" stroke-width="2" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Multi-Currency Support</h3>
+                    <p class="feature-description">Track expenses in multiple currencies with real-time conversion
+                        rates. Perfect for international transactions and travel.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+                            <circle cx="12" cy="12" r="10" stroke="#10b981" stroke-width="2" />
+                            <path d="M12 6V12L16 14" stroke="#10b981" stroke-width="2" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Real-time Analytics</h3>
+                    <p class="feature-description">Get instant insights into your spending patterns with beautiful
+                        charts and detailed breakdowns.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+                            <path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke="#10b981" stroke-width="2" />
+                            <path d="M9 12l2 2 4-4" stroke="#10b981" stroke-width="2" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Smart Budget Goals</h3>
+                    <p class="feature-description">Set custom budgets for different categories and track your progress
+                        with intelligent alerts.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+                            <rect x="3" y="3" width="18" height="18" rx="2" stroke="#10b981" stroke-width="2" />
+                            <path d="M3 9h18M9 3v18" stroke="#10b981" stroke-width="2" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Category Management</h3>
+                    <p class="feature-description">Organize transactions with custom categories and automatic
+                        categorization for faster tracking.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="#10b981" stroke-width="2" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Secure & Private</h3>
+                    <p class="feature-description">Your financial data stays on your device with bank-level encryption
+                        and complete privacy.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+                            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3" stroke="#10b981"
+                                stroke-width="2" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Export & Reports</h3>
+                    <p class="feature-description">Generate detailed financial reports and export your data in multiple
+                        formats for analysis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <svg viewBox="0 0 400 400" class="about-illustration">
+                        <!-- Mobile phone -->
+                        <rect x="100" y="50" width="200" height="300" rx="20" fill="#fff" stroke="#10b981"
+                            stroke-width="4" />
+                        <rect x="110" y="70" width="180" height="260" rx="10" fill="#f0fdf4" />
+
+                        <!-- Screen content -->
+                        <circle cx="200" cy="140" r="30" fill="#10b981" opacity="0.3" />
+                        <text x="200" y="150" text-anchor="middle" font-size="24" fill="#10b981"
+                            font-weight="bold">✓</text>
+
+                        <rect x="130" y="190" width="140" height="8" rx="4" fill="#d1fae5" />
+                        <rect x="130" y="190" width="100" height="8" rx="4" fill="#10b981" />
+
+                        <rect x="130" y="220" width="140" height="8" rx="4" fill="#d1fae5" />
+                        <rect x="130" y="220" width="80" height="8" rx="4" fill="#059669" />
+
+                        <rect x="130" y="250" width="140" height="8" rx="4" fill="#d1fae5" />
+                        <rect x="130" y="250" width="120" height="8" rx="4" fill="#10b981" />
+
+                        <!-- Floating elements -->
+                        <circle cx="60" cy="100" r="25" fill="#10b981" opacity="0.2" />
+                        <circle cx="340" cy="150" r="30" fill="#059669" opacity="0.2" />
+                        <circle cx="70" cy="300" r="20" fill="#10b981" opacity="0.3" />
+                        <circle cx="330" cy="280" r="25" fill="#059669" opacity="0.2" />
+                    </svg>
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">Why Choose Zenith Finance?</h2>
+                    <p class="about-description">We believe financial management should be simple, intuitive, and
+                        accessible to everyone. Zenith Finance combines powerful analytics with beautiful design to help
+                        you make smarter financial decisions every day.</p>
+                    <ul class="about-list">
+                        <li>Intuitive interface designed for everyone</li>
+                        <li>Advanced analytics with beautiful visualizations</li>
+                        <li>Complete privacy with local data storage</li>
+                        <li>Cross-platform support for all devices</li>
+                        <li>Regular updates with new features</li>
+                        <li>No hidden fees or subscriptions</li>
+                    </ul>
+                    <button class="btn-primary" id="aboutSignup">Get Started Free</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Have questions? We'd love to hear from you</p>
+            </div>
+
+            <div class="contact-content">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <input type="text" placeholder="Subject" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h4>Email</h4>
+                        <p>support@zenithfinance.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Phone</h4>
+                        <p>+91 1800-123-4567</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Address</h4>
+                        <p>123 Finance Street, Mumbai, India</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="brand-icon">
+                        <svg width="40" height="40" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="45" fill="#10b981" />
+                            <path d="M30 50 L45 65 L70 35" stroke="white" stroke-width="8" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <span class="brand-name">Zenith Finance</span>
+                </div>
+                <p class="footer-text">Empowering financial freedom through smart money management.</p>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Zenith Finance. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div class="modal" id="loginModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="closeLogin">&times;</button>
+            <h2 class="modal-title">Welcome Back</h2>
+            <p class="modal-subtitle">Login to your account</p>
+
+            <form id="loginForm">
+                <div class="form-group">
+                    <label>Phone Number</label>
+                    <div class="phone-input">
+                        <select id="loginCountryCode">
+                            <option value="+91" data-currency="INR" data-symbol="₹">IN +91</option>
+                            <option value="+1" data-currency="USD" data-symbol="$">US +1</option>
+                            <option value="+44" data-currency="GBP" data-symbol="£">UK +44</option>
+                            <option value="+971" data-currency="AED" data-symbol="د.إ">AE +971</option>
+                            <option value="+61" data-currency="AUD" data-symbol="A$">AU +61</option>
+                        </select>
+                        <input type="tel" id="loginPhone" placeholder="Enter phone number" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" id="loginPassword" placeholder="Enter password" required>
+                </div>
+                <button type="submit" class="btn-primary full-width">Login</button>
+            </form>
+
+            <p class="modal-footer">Don't have an account? <a href="#" id="switchToSignup">Sign up</a></p>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div class="modal" id="signupModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="closeSignup">&times;</button>
+            <h2 class="modal-title">Create Account</h2>
+            <p class="modal-subtitle">Join Zenith Finance today</p>
+
+            <form id="signupForm">
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" id="signupName" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" id="signupEmail" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label>Phone Number</label>
+                    <div class="phone-input">
+                        <select id="signupCountryCode">
+                            <option value="+91" data-currency="INR" data-symbol="₹">IN +91</option>
+                            <option value="+1" data-currency="USD" data-symbol="$">US +1</option>
+                            <option value="+44" data-currency="GBP" data-symbol="£">UK +44</option>
+                            <option value="+971" data-currency="AED" data-symbol="د.إ">AE +971</option>
+                            <option value="+61" data-currency="AUD" data-symbol="A$">AU +61</option>
+                        </select>
+                        <input type="tel" id="signupPhone" placeholder="Enter phone number" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" id="signupPassword" placeholder="Create password" required minlength="6">
+                </div>
+                <div class="form-group">
+                    <label>Confirm Password</label>
+                    <input type="password" id="signupConfirmPassword" placeholder="Confirm password" required>
+                </div>
+                <button type="submit" class="btn-primary full-width">Create Account</button>
+            </form>
+
+            <p class="modal-footer">Already have an account? <a href="#" id="switchToLogin">Login</a></p>
+        </div>
+    </div>
+
+    <script src="landing.js"></script>
+</body>
+
+</html>

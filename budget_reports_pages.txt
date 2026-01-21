@@ -1,0 +1,43 @@
+﻿            <!-- Budgets Page -->
+            <div class="page-content" id="budgetsPage">
+                <div class="page-header">
+                    <h2>Budget Management</h2>
+                    <button class="btn-add-transaction" id="addBudgetBtn">+ Create Budget</button>
+                </div>
+                <div class="budgets-grid" id="budgetsGrid"></div>
+            </div>
+
+            <!-- Reports Page -->
+            <div class="page-content" id="reportsPage">
+                <div class="page-header">
+                    <h2>Financial Reports</h2>
+                    <div class="page-actions">
+                        <select id="reportPeriod" class="filter-select">
+                            <option value="month">This Month</option>
+                            <option value="quarter">This Quarter</option>
+                            <option value="year">This Year</option>
+                            <option value="all">All Time</option>
+                        </select>
+                        <button class="btn-add-transaction" id="generatePDFReport">Download PDF</button>
+                    </div>
+                </div>
+                <div class="reports-grid">
+                    <div class="report-card">
+                        <h3>Income Summary</h3>
+                        <div id="incomeSummary"></div>
+                    </div>
+                    <div class="report-card">
+                        <h3>Expense Summary</h3>
+                        <div id="expenseSummary"></div>
+                    </div>
+                    <div class="report-card">
+                        <h3>Category Analysis</h3>
+                        <canvas id="reportCategoryChart"></canvas>
+                    </div>
+                    <div class="report-card">
+                        <h3>Monthly Comparison</h3>
+                        <canvas id="reportMonthlyChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
