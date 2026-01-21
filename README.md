@@ -314,3 +314,4 @@ Custom SVG icon with purple gradient:
 
 **Built with ❤️ - Zenith Finance**
 *Reach the peak of your financial goals* 💎
+
